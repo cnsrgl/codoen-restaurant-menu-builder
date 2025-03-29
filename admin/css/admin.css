@@ -1,0 +1,186 @@
+/**
+ * CodeOn Restaurant Menu Builder
+ * Yönetici Stilleri
+ *
+ * @since      1.0.0
+ */
+
+/* Genel Admin Stilleri */
+.codeon-admin-header {
+    margin-bottom: 20px;
+}
+
+.codeon-admin-header h1 {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.codeon-admin-description {
+    margin-bottom: 20px;
+}
+
+/* Form Stilleri */
+.codeon-form-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.codeon-form-table th {
+    text-align: left;
+    padding: 15px 10px 15px 0;
+    width: 200px;
+    vertical-align: top;
+}
+
+.codeon-form-table td {
+    padding: 15px 0;
+    vertical-align: top;
+}
+
+.codeon-form-table .description {
+    font-style: italic;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Meta Kutusu Stilleri */
+.codeon-meta-box-container {
+    margin-bottom: 15px;
+}
+
+.codeon-meta-box-row {
+    margin-bottom: 15px;
+}
+
+.codeon-meta-box-row label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.codeon-meta-box-row input[type="text"],
+.codeon-meta-box-row textarea {
+    width: 100%;
+}
+
+.codeon-meta-box-row .description {
+    font-style: italic;
+    color: #666;
+    margin-top: 5px;
+}
+
+.codeon-checkbox-group {
+    margin-right: 20px;
+    display: inline-block;
+}
+
+/* Varyasyonlar */
+.codeon-variations-list {
+    margin-bottom: 15px;
+}
+
+.codeon-variation-item {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #e5e5e5;
+    background-color: #fafafa;
+    position: relative;
+}
+
+.codeon-variation-item .button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Menü Yapılandırması */
+.codeon-menu-builder {
+    margin-top: 20px;
+}
+
+.codeon-menu-builder-controls {
+    margin-bottom: 20px;
+}
+
+.codeon-menu-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #e5e5e5;
+    background-color: #fafafa;
+}
+
+.codeon-section-header {
+    margin-bottom: 15px;
+}
+
+.codeon-section-title {
+    margin: 0 0 10px 0;
+    position: relative;
+    padding-right: 40px;
+}
+
+.codeon-section-title .codeon-drag-handle {
+    cursor: move;
+    color: #aaa;
+}
+
+.codeon-section-title .codeon-remove-section {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #a00;
+}
+
+.codeon-section-title input {
+    width: 80%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.codeon-section-description textarea {
+    width: 100%;
+}
+
+.codeon-section-items {
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+}
+
+.codeon-menu-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    background-color: #fafafa;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.codeon-menu-item .codeon-drag-handle {
+    cursor: move;
+    margin-right: 10px;
+    color: #aaa;
+}
+
+.codeon-item-select {
+    flex-grow: 1;
+}
+
+.codeon-menu-item .codeon-remove-item {
+    margin-left: 10px;
+    color: #a00;
+}
+
+.codeon-sortable-placeholder {
+    border: 1px dashed #aaa;
+    background-color: #f0f0f0;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+/* Gizli Öğeler */
+.hidden {
+    display: none;
+}
