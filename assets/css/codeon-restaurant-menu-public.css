@@ -1,0 +1,180 @@
+/**
+ * Styles publics pour Codeon Restaurant Menu Builder
+ */
+
+/* Conteneur du menu */
+.crmb-menu-container {
+    font-family: Arial, sans-serif;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.crmb-menu-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.crmb-menu-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #666;
+}
+
+/* Catégories */
+.crmb-category {
+    margin-bottom: 30px;
+}
+
+.crmb-category-header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.crmb-category-items {
+    padding: 15px;
+}
+
+/* Éléments du menu */
+.crmb-menu-item {
+    margin-bottom: 15px;
+}
+
+.crmb-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.crmb-item-name {
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+}
+
+.crmb-item-price {
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.crmb-item-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+/* Séparateurs pour les prix */
+.crmb-separator {
+    flex: 1;
+    margin: 0 10px;
+    position: relative;
+    height: 1px;
+}
+
+.crmb-dots-separator {
+    border-bottom: 1px dotted #ccc;
+}
+
+.crmb-line-separator {
+    border-bottom: 1px solid #ccc;
+}
+
+/* Diviseurs entre catégories */
+.crmb-divider {
+    margin: 20px 0;
+    position: relative;
+    height: 20px;
+    text-align: center;
+}
+
+.crmb-divider:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+}
+
+.crmb-divider-line:before {
+    border-top: 1px solid #ccc;
+}
+
+.crmb-divider-dashed:before {
+    border-top: 1px dashed #ccc;
+}
+
+.crmb-divider-dots:before {
+    border-top: 1px dotted #ccc;
+}
+
+/* Styles pour les variations */
+.crmb-item-variations {
+    margin-top: 5px;
+    padding-left: 15px;
+}
+
+.crmb-variation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+    font-size: 0.9em;
+}
+
+.crmb-variation-name {
+    color: #666;
+}
+
+.crmb-variation-price {
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+/* Responsivité */
+@media (max-width: 767px) {
+    .crmb-item-header {
+        flex-wrap: wrap;
+    }
+    
+    .crmb-item-name {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    
+    .crmb-separator {
+        display: none;
+    }
+    
+    .crmb-item-price {
+        width: 100%;
+        text-align: left;
+    }
+    
+    .crmb-variation {
+        flex-wrap: wrap;
+    }
+    
+    .crmb-variation-name {
+        width: 70%;
+    }
+    
+    .crmb-variation-price {
+        width: 30%;
+        text-align: right;
+    }
+}
